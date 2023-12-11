@@ -35,6 +35,12 @@ body {
 .menu-superior .informacoes ul li a {
   color: #1D0D56;
   font-size: 1.2rem;
+  transition: font-size 0.3s ease;
+}
+
+.menu-superior .informacoes ul li a:hover {
+  font-size: 1.4rem;
+  background-color: #fff;
 }
 
 .main {
@@ -92,16 +98,21 @@ body {
   margin-top: 6rem;
   width: 10rem;
   height: 3rem;
-  color: #fff;
   background-color: #331F64;
   align-items: center;
   border-radius: 10px;
   border: 2px solid #000;
 }
 
-.main .botoes button:hover {
-  background-color: #fff;
+.main .botoes button a {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.main .botoes button:hover,
+a:hover{
   color: #331F64;
+  background-color: #AA91E4;
 }
 
 
