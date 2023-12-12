@@ -82,3 +82,35 @@ form .dados button:hover{
   margin-right: 80px;
 }
 
+.suporte h1 {
+  margin-bottom: 10px;
+  margin-left: 200px;
+}
+
+table {
+  width: 500px;
+  height: 200px;
+  border: 2px solid #000;
+  text-align: center;
+  align-items: center;
+  border-collapse: collapse;
+}
+
+table thead tr th {
+  text-transform: uppercase;
+  padding: 5px;
+  border: 2px solid #000;
+}
+
+table tbody tr td {
+  border: 2px solid #000;
+}
+
+table tbody tr:nth-child(even) td {
+  background-color: #1D0D56;
+} 
+
+
+table tbody tr:hover td {
+  background-color: #AA91E4;
+}
