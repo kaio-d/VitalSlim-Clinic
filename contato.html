@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VitalSlim Clinic</title>
+
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <link rel="stylesheet" href="./src/styles/contato.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu-superior">
+        <div class="logo">
+          <img
+            class="imagem-logo"
+            src="./src/imagens/telefonel.png"
+            alt="Logo Hospitalar em formato de Cruz"
+          />
+          <h2>Localização e Contatos</h2>
+        </div>
+
+        <div class="informacoes">
+          <ul>
+            <li>
+              <a href="./index.html">Início</a>
+            </li>
+            <li>
+              <a href="./sobre.html">Sobre</a>
+            </li>
+            <li>
+              <a href="./horarios.html">Horários</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="extras">
+          <div class="contatos"></div>
+          <div class="endereco">
+            <h2>Ver no Mapa</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.3640686231843!2d-46.67578982466887!3d-23.59127267877927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57576c5f6957%3A0x740322baa05a4134!2sR.%20Des.%20Aguiar%20Valim%2C%2073%20-%20Vila%20Nova%20Concei%C3%A7%C3%A3o%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004535-100!5e0!3m2!1sen!2sbr!4v1702341923573!5m2!1sen!2sbr"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="duvidas">
+          <form method="post" action="">
+            <h1>Qualquer dúvida <br />nos deixe um recado !</h1>
+
+            <div class="dados">
+              <label for="nome">Nome</label>
+              <input type="text" placeholder="Kaio Dantas Mancini" />
+            </div>
+
+            <div class="dados">
+              <label for="nome">E-mail</label>
+              <input type="email" placeholder="kaio@teste.com" />
+            </div>
+
+            <div class="dados">
+              <label for="nome">Assunto</label>
+              <input type="text" placeholder="Dúvida de Agendamento" />
+            </div>
+
+            <div class="dados">
+              <label for="nome">Deixe sua dúvida</label>
+              <textarea cols="40" rows="10" maxlength="200" placeholder="Escreva detalhadamente sua solicitação"></textarea>
+            </div>
+
+            <div class="dados">
+              <button type="submit">Enviar</button>
+              <button type="reset">Limpar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="endereco">
+          <h2>Endereço:</h2>
+          <p>
+            73 R. Des. Aguiar Valim, <br />
+            São Paulo, State of São Paulo
+          </p>
+        </div>
+        <div class="contato">
+          <h2>Contato:</h2>
+          <p>
+            kaio@teste.com <br />
+            (+55) 11 9914-9999
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

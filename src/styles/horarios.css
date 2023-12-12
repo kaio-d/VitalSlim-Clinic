@@ -6,7 +6,7 @@
 }
 
 table {
-  width: 800px;
+  width: 1200px;
   height: 300px;
   text-align: center;
   justify-content: center;
@@ -34,3 +34,4 @@ table tbody tr:nth-child(even) td {
 table tbody tr:hover td {
   background-color: #AA91E4;
 }
+
